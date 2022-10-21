@@ -1,0 +1,6 @@
+jerseyClient:
+  timeout: 500ms
+
+baseUrl: https://api.openweathermap.org/data/2.5
+pathUrl: /weather?lat=35.794238297241435&lon=-78.69940445049596&units=metric&appid=
+token: ${WEATHER_API_TOKEN}
